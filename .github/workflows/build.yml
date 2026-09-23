@@ -18,3 +18,5 @@ jobs:
         with:
           name: HYper-Regedit-Key-Enabled-unsigned-ipa
           path: build/HYper-Regedit-Key-Enabled-unsigned.ipa
+- name: Make scripts executable
+  run: chmod +x build_unsigned.sh build_esign_ready_ipa.sh
